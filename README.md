@@ -1,23 +1,59 @@
-# Minecraft MakeCode: Command Kits
-# Update again!!
-This project is a collection of powerful command kits for Minecraft Education Edition, built using MakeCode. Each command gives you a specific set of gear or blocks to help with building, fighting, or just having fun.
+### **Minecraft Client Kit Commands**
 
-## The Kits
+This is a collection of custom kit commands for your Minecraft client. Each command is designed to give you a specific set of gear and items with a single command.
 
--   **`.kit`**: This is your ultimate survival kit. It provides a full set of max-enchanted Netherite gear and essential items like totems and enchanted golden apples, all with the custom name "paw's op kit loot."
+---
 
--   **`.equip_kit`**: This is a standalone command that automatically equips your gear. Run this after using the `.kit` command to instantly put on your armor and place your tools in your hotbar.
+### **`.opkit`**
 
--   **`.illegals_kit`**: This is the first "illegal" kit. It gives you overpowered "32k" weapons and armor that are not possible to obtain in a standard survival world.
+This command gives you a standard, high-level PvP kit with maximum vanilla enchantments. It automatically equips your armor and main tools while giving you extra items for your inventory.
 
--   **`.illegals_kit_2`**: This kit provides a variety of special and unobtainable blocks, including Command Blocks, Barrier Blocks, and End Portal Frames.
+* **Netherite Armor:** Protection IV, Unbreaking III, Mending I, and other standard enchantments.
+* **Netherite Tools:** Max-enchanted sword, pickaxe, and axe.
+* **Other Items:** A trident, totems, ender pearls, end crystals, and more.
 
--   **`.buildingKit`**: This command gives you a comprehensive set of building blocks, including normally unobtainable ones, and a custom "Building Kit" shulker box.
+---
 
-## How to Use
+### **`.illegals_kit_2`**
 
-1.  Open the MakeCode Editor in Minecraft Education Edition.
-2.  Create a new project.
-3.  Switch to the JavaScript editor by clicking the `JavaScript` tab.
-4.  Copy the code from below and paste it into the editor.
-5.  Click the "Play" button to download your command set to the game.
+This is your anarchy kit, filled with blocks and items that are not normally obtainable in-game. It's perfect for breaking the game or building unique structures.
+
+* **Illegal Blocks:** Gives you a pink shulker box with Bedrock, Barrier blocks, Mob Spawners, and other illegal items.
+* **Fluid Blocks:** Gives you stacks of Water, Lava, and Fire that can be placed anywhere.
+
+---
+
+### **`.op_stacked_armor`**
+
+A simple command that gives you a full set of stacked Netherite armor with illegal 32k enchantments and Curse of Vanishing.
+
+* **Stacked Armor:** Gives you a stack of 64 helmets, chestplates, leggings, and boots.
+* **32k Enchantments:** All armor pieces have an illegal protection level of 32767.
+
+---
+
+### **`.buildingKit`**
+
+This kit is designed for builders, providing a variety of common and useful building blocks in a convenient shulker box.
+
+* **Pink Shulker Box:** A pre-filled pink shulker box named "Building Kit."
+* **Building Materials:** Includes blocks like Glowstone, Emerald Blocks, Quartz, Concrete, and more.
+
+---
+
+### **`.stacked_kit`**
+
+This is the ultimate stacked survival kit, giving you a full inventory of valuable gear and items.
+
+* **Stacked Armor:** Gives you a stack of 64 helmets, chestplates, leggings, and boots.
+* **Stacked Tools:** Gives you a stack of 64 of each tool, including a pickaxe, axe, sword, trident, and bow.
+* **Stacked Items:** Gives you stacks of Totems of Undying and Elytra.
+* **Shulker Box:** A bonus pink shulker box to store your new items.
+
+---
+
+### **`.debug`**
+
+A simple utility command that gives you a single debug stick.
+
+* **Debug Stick:** A tool that allows you to change the state of certain blocks in the game.
