@@ -1,10 +1,10 @@
-### **Minecraft Client Kit Commands**
+### **MC EDU Kit Commands**
 
 This is a collection of custom kit commands for your Minecraft client. Each command is designed to give you a specific set of gear and items with a single command.
 
 ---
 
-### **`.opkit`**
+### **`.kit`**
 
 This command gives you a standard, high-level PvP kit with maximum vanilla enchantments. It automatically equips your armor and main tools while giving you extra items for your inventory.
 
