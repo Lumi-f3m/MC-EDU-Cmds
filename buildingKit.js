@@ -1,41 +1,8 @@
 player.onChat(".buildingKit", function () {
-    player.say("Giving you the ultimate building kit!");
+    player.say("Giving you your ultimate building kit!");
 
-    // A green shulker box renamed "Building Kit"
-    player.execute("/give @p green_shulker_box{display:{Name:'{\"text\":\"Building Kit\"}'}}");
-
-    // First row of blocks from the image
-    player.execute("/give @p glowstone 64");
-    player.execute("/give @p emerald_block 64");
-    player.execute("/give @p cobblestone 64");
-    player.execute("/give @p quartz_block 64");
-    player.execute("/give @p smooth_sandstone 64");
-    player.execute("/give @p end_stone 64");
-    player.execute("/give @p white_concrete 64");
-    player.execute("/give @p end_stone_bricks 64");
-    player.execute("/give @p dark_oak_log 64");
-
-    // Second row of blocks
-    player.execute("/give @p stone_bricks 64");
-    player.execute("/give @p diamond_block 64");
-    player.execute("/give @p lapis_lazuli_block 64");
-    player.execute("/give @p redstone_block 64");
-    player.execute("/give @p sand 64");
-    player.execute("/give @p dark_prismarine 64");
-    player.execute("/give @p glass 64");
-    player.execute("/give @p bricks 64");
-    player.execute("/give @p packed_ice 64");
-
-    // Third row of blocks
-    player.execute("/give @p coal_block 64");
-    player.execute("/give @p gold_block 64");
-    player.execute("/give @p redstone_block 64");
-    player.execute("/give @p nether_brick 64");
-    player.execute("/give @p stone 64");
-    player.execute("/give @p oak_log 64");
-    player.execute("/give @p netherite_block 64");
-    player.execute("/give @p bookshelf 64");
-    player.execute("/give @p grass_block 64");
+    // Now a pink shulker box!
+    player.execute("/give @p pink_shulker_box{display:{Name:'{\"text\":\"Building Kit\"}'},BlockEntityTag:{Items:[{Slot:0,id:\"minecraft:glowstone\",Count:64},{Slot:1,id:\"minecraft:emerald_block\",Count:64},{Slot:2,id:\"minecraft:cobblestone\",Count:64},{Slot:3,id:\"minecraft:quartz_block\",Count:64},{Slot:4,id:\"minecraft:smooth_sandstone\",Count:64},{Slot:5,id:\"minecraft:end_stone\",Count:64},{Slot:6,id:\"minecraft:white_concrete\",Count:64},{Slot:7,id:\"minecraft:end_stone_bricks\",Count:64},{Slot:8,id:\"minecraft:dark_oak_log\",Count:64},{Slot:9,id:\"minecraft:stone_bricks\",Count:64},{Slot:10,id:\"minecraft:diamond_block\",Count:64},{Slot:11,id:\"minecraft:lapis_lazuli_block\",Count:64},{Slot:12,id:\"minecraft:redstone_block\",Count:64},{Slot:13,id:\"minecraft:sand\",Count:64},{Slot:14,id:\"minecraft:dark_prismarine\",Count:64},{Slot:15,id:\"minecraft:glass\",Count:64},{Slot:16,id:\"minecraft:bricks\",Count:64},{Slot:17,id:\"minecraft:packed_ice\",Count:64},{Slot:18,id:\"minecraft:coal_block\",Count:64},{Slot:19,id:\"minecraft:gold_block\",Count:64},{Slot:20,id:\"minecraft:redstone_block\",Count:64},{Slot:21,id:\"minecraft:nether_brick\",Count:64},{Slot:22,id:\"minecraft:stone\",Count:64},{Slot:23,id:\"minecraft:oak_log\",Count:64},{Slot:24,id:\"minecraft:netherite_block\",Count:64},{Slot:25,id:\"minecraft:bookshelf\",Count:64},{Slot:26,id:\"minecraft:grass_block\",Count:64}]}}");
     
-    player.say("Your building kit is ready!");
+    player.say("Your building kit is ready.");
 });
