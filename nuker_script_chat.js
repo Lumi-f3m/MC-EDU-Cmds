@@ -1,20 +1,15 @@
 // Made by Lumi_f3m :) - Nuker Script Say Cmd
 // Custimize if you want :)
 player.say("If you see this, it works ;)")
-player.("(Extra) Use chat to say .nuker to start ;)")
+player.say("(Extra) Use chat to say .nuker to start ;)")
 
 player.onChat(".nuker", function () {
 
-
     // First Kill all
-
     player.execute('/kill @e')
-
     loops.pause(3500)
 
-
     // Auto equip
-
     for (let index = 0; index < 99999; index++) {
 
         loops.pause(0.001)
