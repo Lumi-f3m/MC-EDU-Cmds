@@ -1,8 +1,8 @@
 ## Nuker 💣 - Ruins worlds...
 Out now using these links or imports :)                                                                                                                                
-[https://makecode.com/_d5JMuy88Lcxu] - Through Chat Command                                                                                                                
-[https://makecode.com/_VRJhU3F04dbT] - Through Beehive place
-[https://makecode.com/_ieDHuyejDLwR] - Improved Nuker 🙏😭
+[https://makecode.com/_d5JMuy88Lcxu] - Through Chat Command                                                                
+[https://makecode.com/_VRJhU3F04dbT] - Through Beehive place                                                                  
+[https://makecode.com/_ieDHuyejDLwR] - Improved Nuker 🙏😭                                                          
 
 ## Utils ⛏ - Netherite Utility
 Import links :3                                                                                                                                                                  
